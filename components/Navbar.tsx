@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+      
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#070c0e]/90 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
@@ -31,9 +31,6 @@ export function Navbar() {
           <div className="flex flex-col">
             <span className="text-2xl font-extrabold tracking-wider text-white font-serif-luxury flex items-center gap-1.5">
               XEPERA
-              <span className="text-[10px] uppercase font-sans-luxury tracking-widest px-1.5 py-0.5 rounded bg-emerald-900/60 border border-emerald-500/40 text-emerald-300 font-semibold">
-                🇳🇬 NG
-              </span>
             </span>
             <span className="text-[10px] tracking-widest uppercase text-amber-400/80 font-medium">
               The Story Begins on the Road
