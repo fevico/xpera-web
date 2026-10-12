@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-      
+    
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#070c0e]/90 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
