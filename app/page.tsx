@@ -5,6 +5,9 @@ import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
 import { NarrativeBand } from "../components/NarrativeBand";
 import { HowItWorks } from "../components/HowItWorks";
+import { CuratedRoutesSection } from "../components/CuratedRoutesSection";
+import { InCarStorySampler } from "../components/InCarStorySampler";
+import { CulturalPillarsSection } from "../components/CulturalPillarsSection";
 import { DriverSection } from "../components/DriverSection";
 import { WatchSection } from "../components/WatchSection";
 import { SafetyBand } from "../components/SafetyBand";
@@ -37,28 +40,37 @@ export default function LandingPage() {
       {/* 4. 5-Step Process & Journey Strip */}
       <HowItWorks />
 
-      {/* 5. For Drivers & Vetting Pipeline */}
+      {/* 5. Signature Nigerian Trails (Filterable Cultural Routes) */}
+      <CuratedRoutesSection />
+
+      {/* 6. Interactive In-Car Audio Story Sampler */}
+      <InCarStorySampler />
+
+      {/* 7. The Dual-Host Standard (Storyteller Driver + Accredited Site Custodian) */}
+      <CulturalPillarsSection />
+
+      {/* 8. For Drivers & Vetting Pipeline */}
       <DriverSection />
 
-      {/* 6. Video Clips Showcase */}
-      <WatchSection />
+      {/* 9. Video Clips Showcase */}
+      {/* <WatchSection /> */}
 
-      {/* 7. Safety Pillars */}
+      {/* 10. Safety Pillars */}
       <SafetyBand />
 
-      {/* 8. Dedicated Audience Cards (Travelers & Drivers) */}
+      {/* 11. Dedicated Audience Cards (Travelers & Drivers) */}
       <AudienceSection onOpenModal={handleOpenModal} />
 
-      {/* 9. Founder Note */}
-      <FounderSection />
+      {/* 12. Founder Note */}
+      {/* <FounderSection /> */}
 
-      {/* 10. Roadmap Timeline */}
+      {/* 13. Roadmap Timeline */}
       <RoadmapSection />
 
-      {/* 11. Footer */}
+      {/* 14. Footer */}
       <Footer />
 
-      {/* 12. Interactive Early Access / Application Modal */}
+      {/* 15. Interactive Early Access / Application Modal */}
       <EarlyAccessModal
         isOpen={modalOpen}
         role={modalRole}

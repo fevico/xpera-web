@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     "Freedom Park",
     "Lekki Conservation",
     "Nike Art Gallery",
+    "Olumo Rock",
+    "Badagry Heritage",
+    "Osun Osogbo",
     "Tourism Mobility Nigeria",
   ],
   authors: [{ name: "Xpera Vianautix" }],
@@ -57,6 +60,15 @@ const INLINE_CSS = `
   a { color: inherit; }
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 1.5rem; }
   .display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.74rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--terracotta);
+    margin-bottom: 0.55rem;
+  }
 
   /* Nav */
   nav.topnav {
@@ -69,7 +81,7 @@ const INLINE_CSS = `
   .navrow { display: flex; align-items: center; justify-content: space-between; padding: 0.95rem 0; }
   .brand { display: flex; align-items: center; gap: 0.55rem; font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.25rem; color: var(--fg); text-decoration: none; }
   .brand .mark { width: 32px; height: 32px; border-radius: 50%; background: var(--terracotta); display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; font-weight: 700; flex-shrink: 0; }
-  .navlinks { display: flex; gap: 2rem; align-items: center; }
+  .navlinks { display: flex; gap: 1.8rem; align-items: center; }
   .navlinks a { font-size: 0.92rem; font-weight: 600; text-decoration: none; color: var(--muted); transition: color 0.2s; }
   .navlinks a:hover { color: var(--terracotta); }
   .navcta { background: var(--espresso); color: white; padding: 0.55rem 1.25rem; border-radius: 999px; font-size: 0.88rem; font-weight: 700; text-decoration: none; border: none; cursor: pointer; transition: all 0.2s; }
@@ -126,6 +138,122 @@ const INLINE_CSS = `
   .step .num { font-family: 'Fraunces', serif; font-size: 2.2rem; font-weight: 600; color: var(--line); line-height: 1; margin-bottom: 0.6rem; }
   .step h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 0.4rem; color: var(--fg); }
   .step p { font-size: 0.88rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+  /* Curated Nigerian Routes Section */
+  .routes-section { padding: 4.8rem 0; background: var(--bg-alt); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .routes-header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1.5rem; margin-bottom: 2.6rem; }
+  .filter-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .pill-btn {
+    background: var(--card); border: 1px solid var(--line); color: var(--muted);
+    padding: 0.5rem 1rem; border-radius: 999px; font-size: 0.82rem; font-weight: 700;
+    cursor: pointer; transition: all 0.2s;
+  }
+  .pill-btn:hover { border-color: var(--terracotta); color: var(--fg); }
+  .pill-btn.active { background: var(--terracotta); border-color: var(--terracotta); color: white; }
+  .routes-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+  @media (max-width: 980px) { .routes-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .routes-grid { grid-template-columns: 1fr; } }
+  .route-card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+    padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;
+    box-shadow: 0 4px 16px rgba(36, 20, 15, 0.04); transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .route-card:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(36, 20, 15, 0.08); }
+  .route-card-top { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.65rem; }
+  .route-region { font-size: 0.74rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .route-badge { background: rgba(124, 152, 133, 0.16); color: var(--sage-dark); font-size: 0.7rem; font-weight: 800; padding: 3px 9px; border-radius: 999px; }
+  .route-title { font-family: 'Fraunces', serif; font-size: 1.22rem; font-weight: 600; color: var(--fg); margin: 0 0 0.35rem; line-height: 1.28; }
+  .route-meta { font-size: 0.78rem; color: var(--muted); font-weight: 600; margin-bottom: 0.9rem; }
+  .route-stops-bar {
+    font-size: 0.78rem; background: var(--sand); border-radius: 10px; padding: 0.55rem 0.75rem;
+    color: var(--fg); margin-bottom: 0.9rem; line-height: 1.45; border: 1px solid var(--line);
+  }
+  .stops-label { font-weight: 800; color: var(--terracotta); }
+  .story-preview-box {
+    background: #FAF7F3; border-left: 3px solid var(--terracotta); padding: 0.7rem 0.85rem;
+    border-radius: 0 10px 10px 0; margin-bottom: 0.95rem;
+  }
+  .story-preview-label { font-size: 0.72rem; font-weight: 800; color: var(--terracotta); margin-bottom: 0.3rem; }
+  .story-preview-box p { font-size: 0.82rem; font-style: italic; color: var(--fg); line-height: 1.5; margin: 0; }
+  .guide-handoff-box {
+    display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.78rem; color: var(--muted);
+    padding-top: 0.75rem; border-top: 1px dashed var(--line); line-height: 1.45;
+  }
+  .guide-handoff-box strong { color: var(--fg); }
+  .handoff-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sage); margin-top: 0.3rem; flex-shrink: 0; }
+
+  /* Dual-Host Cultural Pillars */
+  .pillars-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; }
+  @media (max-width: 820px) { .pillars-grid { grid-template-columns: 1fr; } }
+  .pillar-card { border-radius: 20px; padding: 2.2rem; border: 1px solid var(--line); }
+  .pillar-light { background: var(--sand); color: var(--fg); }
+  .pillar-dark { background: var(--espresso); color: #F0E4DD; border-color: #3A2A22; }
+  .pillar-tag {
+    display: inline-block; font-size: 0.72rem; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.06em; padding: 4px 10px; border-radius: 999px; margin-bottom: 0.85rem;
+  }
+  .pillar-light .pillar-tag { background: rgba(184, 80, 66, 0.12); color: var(--terracotta); }
+  .pillar-dark .pillar-tag { background: rgba(124, 152, 133, 0.22); color: #A9C4B1; }
+  .pillar-card h3 { font-family: 'Fraunces', serif; font-size: 1.45rem; font-weight: 600; margin: 0 0 0.3rem; }
+  .pillar-dark h3 { color: white; }
+  .pillar-sub { font-size: 0.86rem; font-weight: 700; margin-bottom: 1rem; color: var(--terracotta); }
+  .pillar-dark .pillar-sub { color: #D9C9C0; }
+  .pillar-card p { font-size: 0.92rem; line-height: 1.6; margin: 0 0 1.25rem; }
+  .pillar-light p { color: var(--muted); }
+  .pillar-dark p { color: #D9C9C0; }
+  .pillar-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+  .pillar-list li { display: flex; align-items: flex-start; gap: 0.6rem; font-size: 0.86rem; font-weight: 600; }
+  .pillar-chk {
+    width: 19px; height: 19px; border-radius: 50%; background: var(--sage); color: white;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 0.65rem; flex-shrink: 0; margin-top: 0.1rem;
+  }
+
+  /* In-Car Story Sampler */
+  .sampler-section { padding: 4.8rem 0; background: var(--bg); border-top: 1px solid var(--line); }
+  .sampler-grid { display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 3rem; align-items: center; }
+  @media (max-width: 880px) { .sampler-grid { grid-template-columns: 1fr; gap: 2rem; } }
+  .sampler-section h2 { font-family: 'Fraunces', serif; font-size: clamp(1.8rem, 3.6vw, 2.35rem); font-weight: 600; margin: 0 0 0.75rem; color: var(--fg); }
+  .sampler-lede { font-size: 0.98rem; color: var(--muted); line-height: 1.6; margin: 0 0 1.5rem; }
+  .sampler-tabs { display: flex; flex-direction: column; gap: 0.65rem; }
+  .sampler-tab {
+    text-align: left; padding: 0.9rem 1.1rem; border-radius: 14px; border: 1.5px solid var(--line);
+    background: var(--card); cursor: pointer; transition: all 0.2s;
+  }
+  .sampler-tab:hover { border-color: var(--muted); }
+  .sampler-tab.active { border-color: var(--terracotta); background: var(--sand); }
+  .tab-route { font-size: 0.9rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+  .tab-driver { font-size: 0.76rem; color: var(--muted); font-weight: 600; }
+  .sampler-card {
+    background: var(--espresso); color: #F0E4DD; border-radius: 22px; padding: 2rem;
+    border: 1px solid #3A2A22; box-shadow: 0 14px 34px rgba(36, 20, 15, 0.14);
+  }
+  .sampler-card-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding-bottom: 1.1rem; border-bottom: 1px solid #3A2A22; margin-bottom: 1rem; }
+  .sampler-driver-info { display: flex; align-items: center; gap: 0.8rem; }
+  .sampler-avatar {
+    width: 46px; height: 46px; border-radius: 50%; background: var(--terracotta); color: white;
+    display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', serif; font-weight: 700; font-size: 1rem;
+  }
+  .sampler-name { font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 600; color: white; }
+  .sampler-sub { font-size: 0.76rem; color: #B29B90; }
+  .live-pill {
+    display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(124, 152, 133, 0.2);
+    color: #B9D3C0; font-size: 0.72rem; font-weight: 700; padding: 4px 10px; border-radius: 999px;
+  }
+  .pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--sage); }
+  .sampler-landmark { font-size: 0.8rem; font-weight: 700; color: #E2A99E; margin-bottom: 0.75rem; }
+  .sampler-quote {
+    font-family: 'Fraunces', serif; font-size: 1.02rem; line-height: 1.58; font-style: italic;
+    color: #F6ECE6; margin: 0 0 1.25rem;
+  }
+  .wave-row {
+    display: flex; align-items: center; justify-content: space-between; background: var(--espresso-2);
+    padding: 0.65rem 1rem; border-radius: 12px; border: 1px solid #3A2A22; margin-bottom: 1rem;
+  }
+  .wave-bars { display: flex; align-items: center; gap: 4px; height: 30px; }
+  .wave-bar { width: 3px; border-radius: 99px; background: var(--terracotta); opacity: 0.85; }
+  .wave-time { font-size: 0.74rem; font-weight: 700; color: #B29B90; }
+  .sampler-footer { font-size: 0.8rem; color: #D9C9C0; padding-top: 0.75rem; border-top: 1px solid #3A2A22; }
+  .sampler-footer strong { color: white; }
 
   /* Driver Section */
   .driver-section { background: var(--espresso); color: #F0E4DD; padding: 4.8rem 0; }

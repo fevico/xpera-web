@@ -19,9 +19,10 @@ export function Navbar({ onOpenModal }: NavbarProps) {
 
         <div className="navlinks">
           <a href="#how">How it works</a>
+          <a href="#routes">Nigerian Trails</a>
+          <a href="#stories">Story Ride</a>
           <a href="#drivers">For Drivers</a>
           <a href="#about">About</a>
-          <a href="#contact">Contact</a>
         </div>
 
         <button
@@ -51,6 +52,20 @@ export function Navbar({ onOpenModal }: NavbarProps) {
             How it works
           </a>
           <a
+            href="#routes"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
+          >
+            Nigerian Trails
+          </a>
+          <a
+            href="#stories"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
+          >
+            Story Ride
+          </a>
+          <a
             href="#drivers"
             onClick={() => setMobileMenuOpen(false)}
             className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
@@ -63,13 +78,6 @@ export function Navbar({ onOpenModal }: NavbarProps) {
             className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
           >
             About
-          </a>
-          <a
-            href="#contact"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
-          >
-            Contact
           </a>
           <button
             onClick={() => {
