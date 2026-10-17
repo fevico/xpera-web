@@ -10,9 +10,9 @@ import { InCarStorySampler } from "../components/InCarStorySampler";
 import { CulturalPillarsSection } from "../components/CulturalPillarsSection";
 import { DriverSection } from "../components/DriverSection";
 import { WatchSection } from "../components/WatchSection";
+import { TestimonialsSection } from "../components/TestimonialsSection";
 import { SafetyBand } from "../components/SafetyBand";
 import { AudienceSection } from "../components/AudienceSection";
-import { FounderSection } from "../components/FounderSection";
 import { RoadmapSection } from "../components/RoadmapSection";
 import { Footer } from "../components/Footer";
 import { EarlyAccessModal } from "../components/EarlyAccessModal";
@@ -31,38 +31,38 @@ export default function LandingPage() {
       {/* 1. Navigation Header */}
       <Navbar onOpenModal={handleOpenModal} />
 
-      {/* 2. Hero Section with Interactive Route Art */}
+      {/* 2. Hero Section with Live Destination Photos & Route Art */}
       <Hero onOpenModal={handleOpenModal} />
 
       {/* 3. Narrative Quote Band */}
       <NarrativeBand />
 
-      {/* 4. 5-Step Process & Journey Strip */}
+      {/* 4. 5-Step Process & Visual Evidence of Service in Action */}
       <HowItWorks />
 
-      {/* 5. Signature Nigerian Trails (Filterable Cultural Routes) */}
+      {/* 5. Signature Nigerian Trails (Multi-Image Slider for Lagos, Abuja & Calabar) */}
       <CuratedRoutesSection />
 
       {/* 6. Interactive In-Car Audio Story Sampler */}
       <InCarStorySampler />
 
-      {/* 7. The Dual-Host Standard (Storyteller Driver + Accredited Site Custodian) */}
+      {/* 7. Real Travel Experiences (Live Photography & Verified Creator Clips) */}
+      <WatchSection />
+
+      {/* 8. Genuine Customer Reviews & Verified Pilot Stories */}
+      <TestimonialsSection />
+
+      {/* 9. The Dual-Host Standard (Storyteller Driver + Accredited Site Custodian) */}
       <CulturalPillarsSection />
 
-      {/* 8. For Drivers & Vetting Pipeline */}
+      {/* 10. Meet Your Vetted Hosts & Vetting Pipeline */}
       <DriverSection />
 
-      {/* 9. Video Clips Showcase */}
-      {/* <WatchSection /> */}
-
-      {/* 10. Safety Pillars */}
+      {/* 11. Safety Pillars */}
       <SafetyBand />
 
-      {/* 11. Dedicated Audience Cards (Travelers & Drivers) */}
+      {/* 12. Dedicated Audience Cards (Travelers & Drivers) */}
       <AudienceSection onOpenModal={handleOpenModal} />
-
-      {/* 12. Founder Note */}
-      {/* <FounderSection /> */}
 
       {/* 13. Roadmap Timeline */}
       <RoadmapSection />

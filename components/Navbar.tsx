@@ -19,8 +19,9 @@ export function Navbar({ onOpenModal }: NavbarProps) {
 
         <div className="navlinks">
           <a href="#how">How it works</a>
-          <a href="#routes">Nigerian Trails</a>
+          <a href="#routes">Destinations</a>
           <a href="#stories">Story Ride</a>
+          <a href="#reviews">Reviews</a>
           <a href="#drivers">For Drivers</a>
           <a href="#about">About</a>
         </div>
@@ -56,7 +57,7 @@ export function Navbar({ onOpenModal }: NavbarProps) {
             onClick={() => setMobileMenuOpen(false)}
             className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
           >
-            Nigerian Trails
+            Destinations
           </a>
           <a
             href="#stories"
@@ -64,6 +65,13 @@ export function Navbar({ onOpenModal }: NavbarProps) {
             className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
           >
             Story Ride
+          </a>
+          <a
+            href="#reviews"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block font-semibold text-[var(--muted)] hover:text-[var(--terracotta)]"
+          >
+            Reviews
           </a>
           <a
             href="#drivers"

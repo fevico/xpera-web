@@ -11,6 +11,11 @@ export function Hero({ onOpenModal }: HeroProps) {
     <section className="hero" id="top">
       <div className="wrap hero-grid">
         <div>
+          <div className="hero-eyebrow-pill">
+            <span className="hero-live-dot" />
+            <span>Curated Mobility & Cultural Tourism · Lagos · Abuja · Calabar</span>
+          </div>
+
           <h1>
             Every trip starts
             <br />
@@ -19,24 +24,52 @@ export function Hero({ onOpenModal }: HeroProps) {
             going.
           </h1>
           <p className="lede">
-            Discover a place, then let a certified local guide you through it.
-            Xpera Vianautix matches travelers with vetted Storyteller Drivers
-            who narrate the route as they drive it.
+            More than a ride—it&apos;s a guided cultural journey. Xpera Vianautix
+            picks you up at your door with a vetted <strong>Storyteller Driver</strong>{" "}
+            who narrates the history of the road, then hands you over to an{" "}
+            <strong>accredited on-site guide</strong> with your entry tickets
+            already sorted.
           </p>
+
           <div className="cta-row">
             <button
               onClick={() => onOpenModal("traveler")}
               className="btn btn-primary"
             >
-              Get early access
+              Explore & Book a Ride
             </button>
-            <a href="#drivers" className="btn btn-outline">
+            <a href="#routes" className="btn btn-outline">
+              See Live Destinations
+            </a>
+            <a
+              href="#drivers"
+              className="btn btn-outline"
+              style={{ borderStyle: "dashed" }}
+            >
               Drive with us
             </a>
           </div>
+
+          {/* Instant Trust & Proof Bar */}
+          <div className="hero-trust-strip">
+            <div className="hero-trust-item">
+              <strong>4.96 ★</strong>
+              <span>Pilot Traveler Rating</span>
+            </div>
+            <div className="hero-trust-divider" />
+            <div className="hero-trust-item">
+              <strong>Dual-Host</strong>
+              <span>Storyteller Driver + Site Guide</span>
+            </div>
+            <div className="hero-trust-divider" />
+            <div className="hero-trust-item">
+              <strong>100% Vetted</strong>
+              <span>NIN, FRSC & Ambassador Approved</span>
+            </div>
+          </div>
         </div>
 
-        {/* Route Artwork */}
+        {/* Visual Route Artwork + Real Destination Photo Cards */}
         <div className="route-art">
           <svg
             viewBox="0 0 420 440"
@@ -47,7 +80,7 @@ export function Hero({ onOpenModal }: HeroProps) {
               d="M60,400 C110,360 90,290 150,260 C210,230 200,160 270,130 C320,108 330,70 370,45"
               fill="none"
               stroke="#B85042"
-              strokeWidth="3"
+              strokeWidth="3.5"
               strokeDasharray="1 11"
               strokeLinecap="round"
             />
@@ -57,39 +90,59 @@ export function Hero({ onOpenModal }: HeroProps) {
             <circle cx="370" cy="45" r="9" fill="#B85042" />
           </svg>
 
+          {/* Floating Photo Card Top-Left: Nike Art Gallery & Culture */}
+          <div className="hero-photo-float hero-photo-top">
+            <img
+              src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=600&q=80"
+              alt="Nike Art Gallery Lagos"
+              className="hero-photo-img"
+            />
+            <div className="hero-photo-badge">Lagos · Nike Art Gallery</div>
+          </div>
+
+          {/* Floating Photo Card Bottom-Right: Waterfalls & Nature */}
+          <div className="hero-photo-float hero-photo-bottom">
+            <img
+              src="https://images.unsplash.com/photo-1546587348-d12660c30c50?auto=format&fit=crop&w=600&q=80"
+              alt="Calabar & Gurara Waterfalls"
+              className="hero-photo-img"
+            />
+            <div className="hero-photo-badge">Calabar · Agbokim Falls</div>
+          </div>
+
           {/* Stop 1 */}
-          <div className="route-stop" style={{ left: "2%", bottom: "3%" }}>
+          <div className="route-stop" style={{ left: "0%", bottom: "3%" }}>
             <div className="route-dot" style={{ background: "#24140F" }}></div>
             <div className="route-label">
-              You are here
-              <span className="sub">Lagos, Nigeria</span>
+              Doorstep Pickup
+              <span className="sub">Driver Kemi A. · ★ 4.98</span>
             </div>
           </div>
 
           {/* Stop 2 */}
-          <div className="route-stop" style={{ left: "30%", bottom: "40%" }}>
+          <div className="route-stop" style={{ left: "26%", bottom: "40%" }}>
             <div className="route-dot" style={{ background: "#7C9885" }}></div>
             <div className="route-label">
-              Lekki Conservation
-              <span className="sub">25 min away</span>
+              Lekki Canopy Walk
+              <span className="sub">🎙️ Story playing in-car</span>
             </div>
           </div>
 
           {/* Stop 3 */}
-          <div className="route-stop" style={{ left: "56%", bottom: "63%" }}>
+          <div className="route-stop" style={{ left: "50%", bottom: "64%" }}>
             <div className="route-dot" style={{ background: "#7C9885" }}></div>
             <div className="route-label">
               Nike Art Gallery
-              <span className="sub">15 min away</span>
+              <span className="sub">🎟️ VIP Curator Handoff</span>
             </div>
           </div>
 
           {/* Stop 4 */}
-          <div className="route-stop" style={{ left: "76%", top: "6%" }}>
+          <div className="route-stop" style={{ left: "68%", top: "4%" }}>
             <div className="route-dot" style={{ background: "#B85042" }}></div>
             <div className="route-label">
               Freedom Park
-              <span className="sub">Final stop</span>
+              <span className="sub">Final stop & safe return</span>
             </div>
           </div>
         </div>
