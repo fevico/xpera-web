@@ -5,26 +5,26 @@ import React from "react";
 export function CulturalPillarsSection() {
   const pillars = [
     {
-      tag: "Step 1 · On the Road",
-      title: "The Storyteller Driver (Modern Griot)",
-      subtitle: "Certified in Oral History & Defensive Hospitality",
-      desc: "In West African tradition, the Griot (or Akéwì in Yoruba) is the keeper of memory. Our drivers are trained to turn the highway between pickup and destination into a living prologue—explaining neighborhood histories, architecture, music, and local proverbs while you ride in air-conditioned comfort.",
+      tag: "Mode 1 · Places Without a Resident Guide",
+      title: "Your Driver Leads the Tour on Foot",
+      subtitle: "Trained on Landmark History, Folklore & Local Context",
+      desc: "Many of Nigeria's most breathtaking spots—from Zuma Rock viewpoints and Gurara Falls trails to historic Old Lagos streets—don't always have a dedicated tour guide waiting. That's why every Xpera Storyteller Driver is trained with verified information about the destinations themselves: stepping out of the car to take you around and tell you the story of the place.",
       points: [
-        "Trained on NIHOTOUR-aligned regional modules",
-        "Speaks English plus indigenous languages (Yoruba, Igbo, Hausa, Efik, Pidgin)",
-        "Zero haggling, zero detours, 100% transparent route pricing",
+        "Drivers are trained to know the history & stories of every stop",
+        "Takes you around on foot and explains landmarks firsthand",
+        "Speaks English plus indigenous languages (Yoruba, Hausa, Efik, Pidgin)",
       ],
       theme: "light",
     },
     {
-      tag: "Step 2 · At the Landmark",
-      title: "The Accredited On-Site Custodian",
-      subtitle: "Warm Handover at the Gate, No Tout Friction",
-      desc: "Ever arrived at a Nigerian waterfall, museum, or palace and felt overwhelmed by unverified touts at the gate? With Xpera, your driver hands you directly over to a pre-booked, accredited on-site guide who unlocks sacred courtyards, artisan studios, and the best photo angles.",
+      tag: "Mode 2 · Places With Resident Guides",
+      title: "Your Driver Walks Along Beside You",
+      subtitle: "Respectful Handover to Official Site Guides",
+      desc: "When you arrive at a destination that already has its own official tour guides—such as Nike Art Gallery, Lekki Conservation Centre, or the Old Residency Museum—your driver steps back from telling the story so the resident specialist can lead. Instead of leaving you alone, your driver simply walks along with you for company, comfort, and safety.",
       points: [
-        "Pre-cleared entry tickets & community levies included",
-        "Vetted local historians, art curators, and trail rangers",
-        "Your driver waits safely on standby for your return ride home",
+        "Resident gallery curators or park rangers lead the on-site story",
+        "Your driver walks quietly alongside you throughout the visit",
+        "Seamless escort back to your cool vehicle for the next stop or ride home",
       ],
       theme: "dark",
     },
@@ -34,12 +34,12 @@ export function CulturalPillarsSection() {
     <section className="section" id="custodians">
       <div className="wrap">
         <div className="section-head">
-          <span className="eyebrow">The Dual-Host Standard</span>
-          <h2>Two trained specialists. One unbroken story.</h2>
+          <span className="eyebrow">How On-Site Guiding Works</span>
+          <h2>One trained host from your doorstep into every landmark.</h2>
           <p>
-            You shouldn&apos;t have to piece together a ride from one app and
-            gamble on finding a guide at the gate. Xpera pairs both into a
-            single verified booking.
+            Whether a destination has its own resident tour guides or not, you
+            never explore alone. Your Xpera driver adapts seamlessly to every
+            stop on your route.
           </p>
         </div>
 

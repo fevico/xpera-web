@@ -14,7 +14,7 @@ export function HowItWorks() {
       num: "02",
       tag: "Upfront Pricing",
       title: "See one transparent fare",
-      desc: "Pick up to 3 stops. Your ride, waiting time, museum/park entry tickets, and on-site guide fee are bundled upfront.",
+      desc: "Pick up to 3 stops. Your ride, waiting time, and tour experience are calculated upfront before you book.",
     },
     {
       num: "03",
@@ -30,39 +30,39 @@ export function HowItWorks() {
     },
     {
       num: "05",
-      tag: "VIP Handoff",
-      title: "Meet your on-site guide & return",
-      desc: "Skip ticket lines as your driver hands you to an accredited site guide, waits safely on standby, and drops you back home.",
+      tag: "On-Site Tour",
+      title: "Explore on foot together & return",
+      desc: "Where there's no tour guide, your trained driver takes you around and tells you about the place. Where a site already has a guide, your driver stops narrating and simply walks along with you.",
     },
   ];
 
   const evidenceCards = [
     {
       badge: "Step 1–2 Proof · Upfront Booking",
-      title: "No haggling at the gate. Everything is pre-arranged.",
-      desc: "When you book the 'Lekki Canopy & Nike Art Trail', your single receipt covers private A/C pickup, 5 hours of standby chauffeur service, conservation park tickets, and curator access.",
-      meta: "Sample Bundle: Ride + Entry Passes + Dual Hosts Included",
+      title: "Build your multi-stop route with zero guesswork.",
+      desc: "When you book a trail across Lagos, Abuja, or Calabar, your fare and itinerary are locked in upfront—covering doorstep pickup, standby waiting time at every stop, and your return ride home.",
+      meta: "Sample Bundle: Doorstep Pickup + Multi-Stop Standby + Return",
       image:
         "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=80",
-      imageTag: "✓ Pre-Booked Gate Pass",
+      imageTag: "✓ Upfront Multi-Stop Trip",
     },
     {
       badge: "Step 3–4 Proof · The Story Ride",
       title: "Geofenced cultural stories triggered by the road.",
-      desc: "As your vehicle crosses Lekki Bridge or approaches Zuma Rock, your Storyteller Driver receives subtle cultural prompts—blending verified historical facts with personal local warmth.",
+      desc: "As your vehicle crosses Lekki Bridge or approaches Zuma Rock, your Storyteller Driver shares the history of the neighborhoods and landmarks—blending verified local knowledge with personal warmth.",
       meta: "Live GPS family sharing + in-app audio check-ins active",
       image:
         "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=700&q=80",
       imageTag: "🎙️ Live In-Car Narration",
     },
     {
-      badge: "Step 5 Proof · Warm Site Handoff",
-      title: "Your driver waits while a site specialist leads you inside.",
-      desc: "Drivers don't abandon you at the curb. They walk you to the entrance, introduce you to your accredited museum curator or waterfall ranger, and keep your car cool for the ride back.",
-      meta: "100% escorted from your doorstep and back",
+      badge: "Step 5 Proof · On-Site Flexibility",
+      title: "Trained to guide you on foot—or walk quietly beside you.",
+      desc: "At places without a resident tour guide, your trained Xpera driver steps out to take you around and share the story of the site. At venues that already have official guides, your driver lets the resident guide lead while walking along with you.",
+      meta: "Driver-led tour where needed · Companion walk where guides exist",
       image:
         "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=700&q=80",
-      imageTag: "🤝 Accredited Curator Handoff",
+      imageTag: "🚶‍♂️ Driver-Led or Walk-Along",
     },
   ];
 
@@ -75,7 +75,7 @@ export function HowItWorks() {
             <h2>How Xpera works in practice</h2>
             <p>
               Five seamless steps from opening the app to returning home safely—combining
-              private ride-hailing with certified cultural guiding.
+              private ride-hailing with a trained driver who knows every stop.
             </p>
           </div>
 

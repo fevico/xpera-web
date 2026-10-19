@@ -25,10 +25,10 @@ export function Hero({ onOpenModal }: HeroProps) {
           </h1>
           <p className="lede">
             More than a ride—it&apos;s a guided cultural journey. Xpera Vianautix
-            picks you up at your door with a vetted <strong>Storyteller Driver</strong>{" "}
-            who narrates the history of the road, then hands you over to an{" "}
-            <strong>accredited on-site guide</strong> with your entry tickets
-            already sorted.
+            matches you with a vetted <strong>Storyteller Driver</strong> who
+            narrates the route as you drive, takes you around to tell you about
+            places that have no tour guide, and walks right along with you at
+            landmarks where resident guides are already present.
           </p>
 
           <div className="cta-row">
@@ -58,8 +58,8 @@ export function Hero({ onOpenModal }: HeroProps) {
             </div>
             <div className="hero-trust-divider" />
             <div className="hero-trust-item">
-              <strong>Dual-Host</strong>
-              <span>Storyteller Driver + Site Guide</span>
+              <strong>Road + On-Site</strong>
+              <span>Driver-Led Tour or Walk-Along</span>
             </div>
             <div className="hero-trust-divider" />
             <div className="hero-trust-item">

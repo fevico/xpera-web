@@ -37,7 +37,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
     driverOverview:
       "As we glide across the Lekki link bridge toward the Atlantic coast, your driver brings old Eko to life—from the royal Bini and Awori settlements to Afro-Brazilian returnee master builders and contemporary Nigerian art.",
     guideHandoff:
-      "Private curator walk inside Nike Art Gallery, ranger-led canopy walk at Lekki Conservation Centre, and accredited heritage historians in Badagry.",
+      "At Nike Art Gallery & Lekki Conservation, resident guides lead while your driver walks along with you; along Old Lagos & coastal trails without a guide, your trained driver takes you around and shares the story.",
     slides: [
       {
         name: "Nike Art Gallery, Lekki",
@@ -77,7 +77,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
         caption:
           "From an 1882 colonial brick prison to Lagos Island's most vibrant open-air arts and music amphitheater.",
         spotStory:
-          "Driving past Campos Square and Broad Street, your driver points out the ornate stucco arches built by 19th-century Aguda artisans before handing you over for an evening cultural tour inside Freedom Park.",
+          "Driving past Campos Square and Broad Street, your driver points out the ornate stucco arches built by 19th-century Aguda artisans before walking you through the historic courtyards of Freedom Park.",
       },
     ],
   },
@@ -93,7 +93,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
     driverOverview:
       "Abuja is far more than boulevards and ministries. As the city opens up to towering granite inselbergs, Ibrahim narrates the ancient Gbagyi kingdoms, traditional clay craft, and the rivers carving through central Nigeria.",
     guideHandoff:
-      "Hands-on pottery session with Ushafa women artisans, guided riverside hike at Gurara Waterfalls, and sunset summit walk at Katampe Hill.",
+      "At open spots like Zuma Rock, Katampe Hill, and Gurara Falls, your trained driver takes you around on foot and tells you about the place; at Ushafa Pottery centre, your driver walks along with you as resident artisans demonstrate.",
     slides: [
       {
         name: "Zuma Rock Monolith",
@@ -113,7 +113,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
         caption:
           "White-water curtains plunging over a dramatic 200-meter rock shelf surrounded by evergreen valley mist.",
         spotStory:
-          "Along the Suleja-Minna scenic road, learn the indigenous legend of Gurara and Gura before your on-site eco-guide leads you down the rock trail to feel the cool spray of the falls.",
+          "Along the Suleja-Minna scenic road, learn the indigenous legend of Gurara and Gura before your trained driver takes you down the riverside trail to experience the cool spray of the falls.",
       },
       {
         name: "Ushafa Traditional Pottery Village",
@@ -123,7 +123,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
         caption:
           "Centuries-old Gbagyi coil-pottery techniques passed down without a mechanical wheel.",
         spotStory:
-          "Passing through Bwari's rolling hills, your driver shares the story of Dr. Ladi Kwali—whose portrait graces the 20 Naira note—before you sit with master potters in Ushafa.",
+          "Passing through Bwari's rolling hills, your driver shares the story of Dr. Ladi Kwali—whose portrait graces the 20 Naira note—before walking along with you as master potters guide you in Ushafa.",
       },
       {
         name: "Katampe Hill & Jabi Lake Sunset",
@@ -133,7 +133,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
         caption:
           "Golden evening light over the geographical center-point of Nigeria and Jabi's calm waterfront.",
         spotStory:
-          "Wind down your Abuja journey as Ibrahim explains the 1976 master plan that placed the capital at the exact heart of the country, ending with a guided sunset walk by the water.",
+          "Wind down your Abuja journey as Ibrahim explains the 1976 master plan that placed the capital at the exact heart of the country, then leads your sunset walk by the water.",
       },
     ],
   },
@@ -149,7 +149,7 @@ const CITY_SHOWCASES: CityShowcase[] = [
     driverOverview:
       "From the historic port of Old Calabar to the emerald canopy of Cross River National Park, Etim weaves together Efik royal court stories, Nsibidi symbols, and the untamed waterfalls of the eastern borderlands.",
     guideHandoff:
-      "Rainforest descent of 234 stone steps at Kwa Falls, eco-ranger tour at Agbokim's seven cascades, and curator access at the 1884 Old Residency.",
+      "At Agbokim Cascades and highland viewpoints with no resident guide, your trained driver leads your tour; at the 1884 Old Residency & Afi Sanctuary where guides exist, your driver stops narrating and walks along with you.",
     slides: [
       {
         name: "Agbokim & Kwa Waterfalls",
@@ -389,12 +389,12 @@ export function CuratedRoutesSection() {
               </div>
             </div>
 
-            {/* Bottom Guide Handoff + Area Switcher */}
+            {/* Bottom On-Site Tour Info + Area Switcher */}
             <div className="showcase-footer">
               <div className="showcase-handoff">
                 <span className="handoff-dot" />
                 <div>
-                  <strong>Accredited On-Site Guides:</strong>{" "}
+                  <strong>On-Site Tour Experience:</strong>{" "}
                   {activeCity.guideHandoff}
                 </div>
               </div>
