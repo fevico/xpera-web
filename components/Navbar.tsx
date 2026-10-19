@@ -13,8 +13,8 @@ export function Navbar({ onOpenModal }: NavbarProps) {
     <nav className="topnav">
       <div className="wrap navrow">
         <a href="#top" className="brand">
-          <span className="mark">X</span>
-          Xpera Vianautix
+          <span className="mark">R</span>
+          Rident Drive
         </a>
 
         <div className="navlinks">

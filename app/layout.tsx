@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Xpera Vianautix — See it. Book it. Live it.",
+  title: "Rident Drive — See it. Book it. Live it.",
   description:
-    "Discover a place, then let a certified local guide you through it. Xpera Vianautix matches travelers with vetted Storyteller Drivers who narrate the route as they drive it.",
+    "Discover a place, then let a certified local guide you through it. Rident Drive matches travelers with vetted Storyteller Drivers who narrate the route as they drive it.",
   keywords: [
-    "Xpera Vianautix",
+    "Rident Drive",
     "Storyteller Drivers",
     "Nigeria Tourism",
     "Lagos Tours",
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     "Kwa Waterfalls",
     "Tourism Mobility Nigeria",
   ],
-  authors: [{ name: "Xpera Vianautix" }],
+  authors: [{ name: "Rident Drive" }],
   openGraph: {
-    title: "Xpera Vianautix — See it. Book it. Live it.",
+    title: "Rident Drive — See it. Book it. Live it.",
     description:
       "Every trip starts with somewhere worth going. Discover places with certified Storyteller Drivers across Lagos, Abuja, and Calabar.",
-    siteName: "Xpera Vianautix",
+    siteName: "Rident Drive",
     type: "website",
   },
 };

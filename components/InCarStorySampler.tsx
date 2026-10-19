@@ -77,7 +77,7 @@ export function InCarStorySampler() {
               Most tourists stare at their phones in traffic because nobody
               gives them the context of the streets they&apos;re passing. Tap
               any of our three launch cities below to read an excerpt of how
-              Xpera Storyteller Drivers bring the road alive.
+              Rident Drive Storyteller Drivers bring the road alive.
             </p>
 
             <div className="sampler-tabs">

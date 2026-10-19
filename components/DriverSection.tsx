@@ -152,7 +152,7 @@ export function DriverSection() {
           <h2>Every driver earns that badge the hard way.</h2>
           <p className="lede">
             You&apos;re never getting into a stranger&apos;s car. Before any host
-            appears in the Xpera app, they pass a dual vetting pipeline—combining
+            appears in the Rident Drive app, they pass a dual vetting pipeline—combining
             rigorous safety verification, an AI-scored storytelling exam, and
             in-person sign-off from a city ambassador.
           </p>

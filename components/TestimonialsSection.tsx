@@ -34,8 +34,8 @@ const TESTIMONIALS: TestimonialItem[] = [
     rating: "5.0 ★",
     date: "Verified Pilot Trip · Lagos",
     quote:
-      "I’ve visited Lagos four times, usually sitting in silent Ubers wondering about the history of the neighborhoods we passed. With Xpera, Kemi turned the drive across Lekki into a warm conversation about Yoruba indigo textiles—and when we arrived at Nike Art Gallery, our curator was already waiting with our passes. Zero stress, total peace of mind.",
-    highlightTag: "Door-to-Door Escorted · Zero Queue",
+      "I’ve visited Lagos four times, usually sitting in silent Ubers wondering about the history of the neighborhoods we passed. With Rident Drive, Kemi turned the drive across Lekki into a warm conversation about Yoruba indigo textiles—and when we arrived at Nike Art Gallery, our curator was already waiting while Kemi walked right along with us. Zero stress, total peace of mind.",
+    highlightTag: "Door-to-Door Escorted · Walk-Along Host",
   },
   {
     id: "review-abuja",
@@ -45,15 +45,15 @@ const TESTIMONIALS: TestimonialItem[] = [
       "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
     city: "Abuja",
     routeTaken: "Zuma Rock Pass → Ushafa Pottery → Gurara Waterfalls",
-    hosts: "Driver Ibrahim D. + Guide Amina K.",
+    hosts: "Storyteller Driver Ibrahim D.",
     tripPhoto:
       "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80",
     tripPhotoCaption: "Afternoon spray at Gurara Waterfalls & Ushafa Village",
     rating: "5.0 ★",
     date: "Verified Pilot Trip · Abuja",
     quote:
-      "We always wanted to explore Gurara Waterfalls and Ushafa Pottery Village outside central Abuja, but didn't know which driver to trust for a full-day highway outing. Ibrahim's knowledge of Gbagyi history was extraordinary, our live trip link kept our colleagues updated, and molding clay with the women in Ushafa was our favorite Saturday in Nigeria.",
-    highlightTag: "Highway Safe · Live GPS Shared",
+      "We always wanted to explore Gurara Waterfalls and Ushafa Pottery Village outside central Abuja, but didn't know which driver to trust for a full-day highway outing. At Gurara where there was no resident guide, Ibrahim personally guided our hike and told us the Gbagyi history of the falls, and in Ushafa he walked along with us as the women potters showed their craft.",
+    highlightTag: "Driver-Led Tour · Live GPS Shared",
   },
   {
     id: "review-calabar",
@@ -63,15 +63,15 @@ const TESTIMONIALS: TestimonialItem[] = [
       "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
     city: "Calabar",
     routeTaken: "Old Residency Museum → Kwa Gorge → Agbokim Cascades",
-    hosts: "Driver Etim B. + Eco-Ranger Bassey",
+    hosts: "Storyteller Driver Etim B.",
     tripPhoto:
       "https://images.unsplash.com/photo-1546587348-d12660c30c50?auto=format&fit=crop&w=800&q=80",
     tripPhotoCaption: "The seven-stream rainforest drop at Agbokim Falls",
     rating: "4.9 ★",
     date: "Verified Pilot Trip · Calabar",
     quote:
-      "Seeing the seven streams of Agbokim Waterfalls in person felt surreal. Etim picked us up at our hotel in a spotless SUV, shared fascinating Efik stories of Old Calabar along the rainforest corridor, and handed us over to a certified eco-ranger at the gorge. Having one upfront price with all entry fees included made it effortless.",
-    highlightTag: "All-Inclusive Tickets · Local Folklore",
+      "Seeing the seven streams of Agbokim Waterfalls in person felt surreal. Etim picked us up at our hotel in a spotless SUV, shared fascinating Efik stories of Old Calabar on the drive, walked alongside us at the Old Residency museum, and personally guided us around the waterfalls where there were no guides.",
+    highlightTag: "Trained Local Host · Cultural Folklore",
   },
 ];
 
@@ -87,8 +87,8 @@ export function TestimonialsSection() {
             <h2>Stories from the backseat.</h2>
             <p>
               Hear from diaspora returnees, weekend explorers, and expats who
-              experienced Lagos, Abuja, and Calabar with an Xpera Storyteller
-              Driver and on-site guide.
+              experienced Lagos, Abuja, and Calabar with a Rident Drive
+              Storyteller Driver.
             </p>
           </div>
 

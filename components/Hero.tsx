@@ -24,7 +24,7 @@ export function Hero({ onOpenModal }: HeroProps) {
             going.
           </h1>
           <p className="lede">
-            More than a ride—it&apos;s a guided cultural journey. Xpera Vianautix
+            More than a ride—it&apos;s a guided cultural journey. Rident Drive
             matches you with a vetted <strong>Storyteller Driver</strong> who
             narrates the route as you drive, takes you around to tell you about
             places that have no tour guide, and walks right along with you at
