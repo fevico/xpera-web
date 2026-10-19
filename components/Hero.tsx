@@ -25,10 +25,10 @@ export function Hero({ onOpenModal }: HeroProps) {
           </h1>
           <p className="lede">
             More than a ride—it&apos;s a guided cultural journey. Rident Drive
-            matches you with a vetted <strong>Storyteller Driver</strong> who
-            narrates the route as you drive, takes you around to tell you about
-            places that have no tour guide, and walks right along with you at
-            landmarks where resident guides are already present.
+            picks you up at your door with a vetted <strong>Storyteller Driver</strong>{" "}
+            who narrates the history of the road, takes you around to explore
+            places that have no tour guide (or walks right along with you where
+            a guide is already present), and drops you safely back home.
           </p>
 
           <div className="cta-row">
@@ -58,8 +58,8 @@ export function Hero({ onOpenModal }: HeroProps) {
             </div>
             <div className="hero-trust-divider" />
             <div className="hero-trust-item">
-              <strong>Road + On-Site</strong>
-              <span>Driver-Led Tour or Walk-Along</span>
+              <strong>Door-to-Door</strong>
+              <span>Pickup, Tour & Safe Return</span>
             </div>
             <div className="hero-trust-divider" />
             <div className="hero-trust-item">
@@ -133,7 +133,7 @@ export function Hero({ onOpenModal }: HeroProps) {
             <div className="route-dot" style={{ background: "#7C9885" }}></div>
             <div className="route-label">
               Nike Art Gallery
-              <span className="sub">🎟️ VIP Curator Handoff</span>
+              <span className="sub">🚶‍♀️ Driver walks along with you</span>
             </div>
           </div>
 

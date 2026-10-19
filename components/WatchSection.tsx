@@ -24,19 +24,19 @@ const WATCH_MOMENTS: WatchMoment[] = [
     image:
       "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=85",
     storyNote:
-      "Captured on the 8:00 AM Lagos Eco & Art ride. Driver Kemi picked us up in Victoria Island, narrated the history of the Lekki peninsula, and our ranger met us right at the canopy entrance.",
+      "Captured on the 8:00 AM Lagos Eco & Art ride. Driver Kemi picked us up in Victoria Island, narrated the history of the Lekki peninsula on the drive, and walked right along with us as the park guide led the canopy walk.",
   },
   {
     id: "nike-gallery",
     city: "Lagos",
     title: "Inside 5 floors of indigo Adire & bronze masterworks 🎨",
-    caption: "Nike Art Gallery, Lekki · Private Curator Walk",
+    caption: "Nike Art Gallery, Lekki · Walk-Along with Driver Kemi",
     creator: "@tayo_lens · Lagos Pilot Guest",
     duration: "1:12",
     image:
       "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=900&q=85",
     storyNote:
-      "Zero queue at the door—our Storyteller Driver introduced us directly to the gallery curator who walked us through over 8,000 traditional and contemporary Nigerian pieces.",
+      "After sharing the story of Adire indigo textiles in the car, our Storyteller Driver walked alongside us through all five gallery floors while the resident curator explained the artworks, then drove us safely home.",
   },
   {
     id: "abuja-pottery",
@@ -48,7 +48,7 @@ const WATCH_MOMENTS: WatchMoment[] = [
     image:
       "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=900&q=85",
     storyNote:
-      "Driver Ibrahim shared the incredible biography of Dr. Ladi Kwali on the drive out of Maitama, then translated for us as the master potters in Ushafa showed us how to shape clay by hand.",
+      "Driver Ibrahim picked us up at our doorstep, shared the biography of Dr. Ladi Kwali on the drive, walked with us in Ushafa, and personally guided our walking tour at Gurara Waterfalls where there was no resident guide.",
   },
   {
     id: "calabar-falls",
@@ -60,7 +60,7 @@ const WATCH_MOMENTS: WatchMoment[] = [
     image:
       "https://images.unsplash.com/photo-1546587348-d12660c30c50?auto=format&fit=crop&w=900&q=85",
     storyNote:
-      "A 100% stress-free full-day drive from Calabar Municipal through lush cocoa estates with Driver Etim, ending right at the mist of Agbokim's seven-stream cascade.",
+      "Driver Etim picked us up in Calabar Municipal, narrated Efik stories along the rainforest corridor, took us around the seven-stream waterfall himself, and dropped us right back at our doorstep.",
   },
 ];
 

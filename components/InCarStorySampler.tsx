@@ -28,7 +28,7 @@ const STORY_SNIPPETS: StorySnippet[] = [
     quote:
       "Up ahead on our right is the dazzling white five-storey building of Nike Art Gallery. Every single Adire indigo pattern you’ll see inside has a secret meaning—our mothers used cassava paste and chicken feathers to paint proverbs onto cloth so royalty could speak without saying a word. And when we head back toward Broad Street on Lagos Island, I’ll show you how the 1882 colonial prison where Obafemi Awolowo and Herbert Macaulay were held was reborn into Freedom Park...",
     culturalNote:
-      "At Nike Gallery, our resident curator will walk you through all 5 floors and introduce you to the weavers.",
+      "At Nike Gallery where resident guides are present, Amaka stops narrating and walks along with you through all 5 floors before driving you to Freedom Park.",
   },
   {
     id: "abuja-story",
@@ -42,7 +42,7 @@ const STORY_SNIPPETS: StorySnippet[] = [
     quote:
       "Look straight ahead at that massive granite monolith rising twice the height of Aso Rock—that is Zuma Rock. For centuries, the Gbagyi people revered it as a protective watchman; if you look closely at the center crease, you can see a natural human face carved by nature into the stone. Before we reach the roaring cascades of Gurara Waterfalls, we’ll stop in Ushafa where women still hand-coil clay pots using the exact technique Dr. Ladi Kwali made famous on the 20-Naira note...",
     culturalNote:
-      "At Gurara Falls, your certified trail ranger will guide you down to the calm lower pools for photos and a picnic.",
+      "At Gurara Falls where there is no resident guide, Ibrahim personally leads your walking tour down to the lower pools and drops you safely back in Abuja.",
   },
   {
     id: "calabar-story",
@@ -56,7 +56,7 @@ const STORY_SNIPPETS: StorySnippet[] = [
     quote:
       "Feel how cool the breeze gets as we enter the Cross River rainforest. Long before colonial ships docked at Old Calabar Marina in the 1800s, our ancestors used Nsibidi—a sacred script of symbols woven into Ekpe cloth and carved on calabashes. Just ahead at Kwa Falls, 234 hand-carved stone steps lead down through mahogany trees to a crystal-clear gorge where freshwater streams tumble straight from the Oban Hills...",
     culturalNote:
-      "Eco-guide Ntufam is waiting at the top of the gorge with cold palm wine and trekking sticks for your descent.",
+      "At the waterfalls, Effiong walks you down the rainforest trail, shares the history of the gorge, and drives you comfortably back to your hotel.",
   },
 ];
 
@@ -145,7 +145,7 @@ export function InCarStorySampler() {
             </div>
 
             <div className="sampler-footer">
-              <strong>Next Stop Handoff:</strong> {activeStory.culturalNote}
+              <strong>At the Stop &amp; Return:</strong> {activeStory.culturalNote}
             </div>
           </div>
         </div>
