@@ -46,7 +46,7 @@ export function EarlyAccessModal({
           <>
             <div>
               <h3 className="font-serif text-2xl font-bold text-[var(--ink)]">
-                {role === "traveler" ? "Join Early Access" : "Drive With Rident Drive"}
+                {role === "traveler" ? "Join Early Access" : "Drive With Rydent Drive"}
               </h3>
               <p className="text-sm text-[var(--muted)] mt-1">
                 {role === "traveler"

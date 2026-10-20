@@ -8,7 +8,7 @@ export function CulturalPillarsSection() {
       tag: "Mode 1 · Places Without a Resident Guide",
       title: "Your Driver Leads the Tour on Foot",
       subtitle: "Trained on Landmark History, Folklore & Local Context",
-      desc: "Many of Nigeria's most breathtaking spots—from Zuma Rock viewpoints and Gurara Falls trails to historic Old Lagos streets—don't always have a dedicated tour guide waiting. That's why every Rident Drive Storyteller Driver is trained with verified information about the destinations themselves: stepping out of the car to take you around and tell you the story of the place.",
+      desc: "Many of Nigeria's most breathtaking spots—from Zuma Rock viewpoints and Gurara Falls trails to historic Old Lagos streets—don't always have a dedicated tour guide waiting. That's why every Rydent Drive Storyteller Driver is trained with verified information about the destinations themselves: stepping out of the car to take you around and tell you the story of the place.",
       points: [
         "Drivers are trained to know the history & stories of every stop",
         "Takes you around on foot and explains landmarks firsthand",
@@ -38,7 +38,7 @@ export function CulturalPillarsSection() {
           <h2>One trained host from your doorstep into every landmark.</h2>
           <p>
             Whether a destination has its own resident tour guides or not, you
-            never explore alone. Your Rident Drive host adapts seamlessly to every
+            never explore alone. Your Rydent Drive host adapts seamlessly to every
             stop on your route.
           </p>
         </div>

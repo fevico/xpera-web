@@ -34,7 +34,7 @@ const TESTIMONIALS: TestimonialItem[] = [
     rating: "5.0 ★",
     date: "Verified Pilot Trip · Lagos",
     quote:
-      "I’ve visited Lagos four times, usually sitting in silent Ubers wondering about the history of the neighborhoods we passed. With Rident Drive, Kemi turned the drive across Lekki into a warm conversation about Yoruba indigo textiles—and when we arrived at Nike Art Gallery, our curator was already waiting while Kemi walked right along with us. Zero stress, total peace of mind.",
+      "I’ve visited Lagos four times, usually sitting in silent Ubers wondering about the history of the neighborhoods we passed. With Rydent Drive, Kemi turned the drive across Lekki into a warm conversation about Yoruba indigo textiles—and when we arrived at Nike Art Gallery, our curator was already waiting while Kemi walked right along with us. Zero stress, total peace of mind.",
     highlightTag: "Door-to-Door Escorted · Walk-Along Host",
   },
   {
@@ -87,7 +87,7 @@ export function TestimonialsSection() {
             <h2>Stories from the backseat.</h2>
             <p>
               Hear from diaspora returnees, weekend explorers, and expats who
-              experienced Lagos, Abuja, and Calabar with a Rident Drive
+              experienced Lagos, Abuja, and Calabar with a Rydent Drive
               Storyteller Driver.
             </p>
           </div>

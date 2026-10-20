@@ -14,7 +14,7 @@ export function Navbar({ onOpenModal }: NavbarProps) {
       <div className="wrap navrow">
         <a href="#top" className="brand">
           <span className="mark">R</span>
-          Rident Drive
+          Rydent Drive
         </a>
 
         <div className="navlinks">

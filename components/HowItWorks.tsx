@@ -8,7 +8,7 @@ export function HowItWorks() {
       num: "01",
       tag: "Browse & Pick",
       title: "Choose your city & landmarks",
-      desc: "Open Rident Drive in Lagos, Abuja, or Calabar and explore curated cultural, nature, and heritage trails near you.",
+      desc: "Open Rydent Drive in Lagos, Abuja, or Calabar and explore curated cultural, nature, and heritage trails near you.",
     },
     {
       num: "02",
@@ -58,7 +58,7 @@ export function HowItWorks() {
     {
       badge: "Step 5 Proof · On-Site Flexibility",
       title: "Trained to guide you on foot—or walk quietly beside you.",
-      desc: "At places without a resident tour guide, your trained Rident Drive host steps out to take you around and share the story of the site. At venues that already have official guides, your driver lets the resident guide lead while walking along with you.",
+      desc: "At places without a resident tour guide, your trained Rydent Drive host steps out to take you around and share the story of the site. At venues that already have official guides, your driver lets the resident guide lead while walking along with you.",
       meta: "Driver-led tour where needed · Companion walk where guides exist",
       image:
         "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=700&q=80",
@@ -72,7 +72,7 @@ export function HowItWorks() {
         <div className="wrap">
           <div className="section-head">
             <span className="eyebrow">Clear Service Flow · Door-to-Door</span>
-            <h2>How Rident Drive works in practice</h2>
+            <h2>How Rydent Drive works in practice</h2>
             <p>
               Five seamless steps from opening the app to returning home safely—combining
               private ride-hailing with a trained driver who knows every stop.
@@ -99,7 +99,7 @@ export function HowItWorks() {
                 <span className="eyebrow" style={{ marginBottom: "0.25rem" }}>
                   Behind the Scenes · Service Evidence
                 </span>
-                <h3>What makes a Rident Drive trip different from a regular ride?</h3>
+                <h3>What makes a Rydent Drive trip different from a regular ride?</h3>
               </div>
               <span className="evidence-pill">
                 ✓ Verified Door-to-Door Experience

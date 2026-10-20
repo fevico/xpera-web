@@ -24,7 +24,7 @@ export function Hero({ onOpenModal }: HeroProps) {
             going.
           </h1>
           <p className="lede">
-            More than a ride—it&apos;s a guided cultural journey. Rident Drive
+            More than a ride—it&apos;s a guided cultural journey. Rydent Drive
             picks you up at your door with a vetted <strong>Storyteller Driver</strong>{" "}
             who narrates the history of the road, takes you around to explore
             places that have no tour guide (or walks right along with you where

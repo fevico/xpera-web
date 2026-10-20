@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Rident Drive — See it. Book it. Live it.",
+  title: "Rydent Drive — See it. Book it. Live it.",
   description:
-    "Discover a place, then let a certified local guide you through it. Rident Drive matches travelers with vetted Storyteller Drivers who narrate the route as they drive it.",
+    "Discover a place, then let a certified local guide you through it. Rydent Drive matches travelers with vetted Storyteller Drivers who narrate the route as they drive it.",
   keywords: [
-    "Rident Drive",
+    "Rydent Drive",
     "Storyteller Drivers",
     "Nigeria Tourism",
     "Lagos Tours",
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     "Kwa Waterfalls",
     "Tourism Mobility Nigeria",
   ],
-  authors: [{ name: "Rident Drive" }],
+  authors: [{ name: "Rydent Drive" }],
   openGraph: {
-    title: "Rident Drive — See it. Book it. Live it.",
+    title: "Rydent Drive — See it. Book it. Live it.",
     description:
       "Every trip starts with somewhere worth going. Discover places with certified Storyteller Drivers across Lagos, Abuja, and Calabar.",
-    siteName: "Rident Drive",
+    siteName: "Rydent Drive",
     type: "website",
   },
 };

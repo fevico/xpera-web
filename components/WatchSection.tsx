@@ -74,7 +74,7 @@ export function WatchSection() {
         <div className="routes-header" style={{ marginBottom: "2rem" }}>
           <div className="section-head" style={{ marginBottom: 0 }}>
             <span className="eyebrow">Real Travel Experiences · AI-Verified Clips</span>
-            <h2>See what a Rident Drive journey feels like.</h2>
+            <h2>See what a Rydent Drive journey feels like.</h2>
             <p>
               Real moments captured by pilot travelers and local creators across
               Lagos, Abuja, and Calabar—verified against each landmark before

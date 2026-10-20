@@ -9,13 +9,13 @@ export function FounderSection() {
         <div className="founder-photo">AA</div>
         <div>
           <blockquote>
-            &ldquo;I built Rident Drive because I kept watching travelers pass through
+            &ldquo;I built Rydent Drive because I kept watching travelers pass through
             incredible places with no one to tell them why those places mattered.
             A ride should never be the least memorable part of the trip.&rdquo;
           </blockquote>
           <div className="name">Alexander Adekunle Adeyemi</div>
           <div className="cred">
-            Founder, Rident Drive · NIHOTOUR Certified, Hospitality &amp;
+            Founder, Rydent Drive · NIHOTOUR Certified, Hospitality &amp;
             Tourism
           </div>
         </div>
